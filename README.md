@@ -321,6 +321,8 @@ Edit the environment variables file you are using and add the encryption flag de
 `config/encryptenv.php` as a prefix to each value you want to encrypt
 
 Example .env File with default Encrypt Flag !ENC:
+
+⚠WARNING⚠ - Do not use quotes or double quotes in env file with laravel-encryptenv !
 ```
 APP_ENV=production
 APP_DEBUG=false
