@@ -478,6 +478,13 @@ cat command in a shell.
 Most apache and nginx setups run their parent process as root, so there should not be an issue of the configuration files
 being readable by apache/nginx.
 
+## Troubleshootings
+
+If the retrieved data is not the expected try to avoid using laravel config cache and do : 
+
+```console
+php artisan config:clear
+```
 
 ## License
 
